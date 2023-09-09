@@ -35,7 +35,7 @@ void	ft_print_unsignedint(t_print *tab)
 	nbr = va_arg(tab->args, unsigned int);
 	tem = nbr;
 	addrlen = 0;
-	if (tem == (unsigned int) NULL)
+	if (!tem)
 	{
 		addrlen += 1;
 	}

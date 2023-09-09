@@ -45,7 +45,7 @@ void	ft_print_di(t_print *tab)
 	nbr = va_arg(tab->args, int);
 	tem = nbr;
 	addrlen = 0;
-	if (tem == (int) NULL)
+	if (!tem)
 		addrlen += 1;
 	else if (tem == -2147483648)
 		addrlen += 11;

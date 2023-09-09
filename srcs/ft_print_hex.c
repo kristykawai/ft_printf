@@ -38,7 +38,7 @@ void	ft_print_hex(t_print *tab, int x)
 	nbr = va_arg(tab->args, unsigned int);
 	tem = nbr;
 	addrlen = 0;
-	if (tem == (unsigned int) NULL)
+	if (!tem)
 	{
 		addrlen += 1;
 	}
