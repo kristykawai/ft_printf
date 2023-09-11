@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include "libft/libft.h"
+#include "lib/libft/libft.h"
 
 void	ft_eval_format(t_print *tab, const char *format, int pos)
 {
